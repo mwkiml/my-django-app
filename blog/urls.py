@@ -3,4 +3,5 @@ from .views import home
 
 urlpatterns = [
     path('', home),
+    path('about/', about),  # about URL 추가
 ]
